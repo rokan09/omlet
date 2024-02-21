@@ -1,0 +1,178 @@
+    * {
+        margin: 0; padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Outfit', sans;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    
+    
+    
+    
+    h1, h2 {
+        font-family: 'Young Serif', sans-serif;
+        font-weight: 400;
+        margin-bottom: 1.2rem;
+    }
+    
+    .container .page img {
+        width: 100%;
+    }
+    
+    .content {
+        margin: 1.7rem;
+    }
+    
+    .prep-time {
+        margin: 1rem 0;
+        padding: 1rem 2rem;
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 10px;
+    }
+    
+    .prep-time p {
+        font-weight: 600;
+        padding: 1rem 0;
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .prep-time ul {
+        padding-left: 1.5rem;
+    }
+    
+    
+    .prep-time ul li {
+        padding: 0 0 0.7rem 1rem;
+    }
+    
+    .prep-time ul li span {
+        font-weight: 600;
+    }
+    
+    
+    
+    
+    
+    .ingredients {
+        margin: 1.5rem 0;
+    }
+    
+    .ingredients h2 {
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .ingredients ul {
+        padding-left: 1.5rem;
+    }
+    
+    .ingredients ul li {
+        padding: 0 0 0.5rem 1.2rem;
+    }
+    
+    
+    
+    .instructions {
+        border-top: 1px solid hsl(30, 18%, 87%);
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        padding: 1.5rem 0;
+    }
+    
+    .instructions h2 {
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .instructions ol {
+        padding-left: 1.5rem;
+    }
+    
+    .instructions ol li {
+        padding: 0 0 0.7rem 1.2rem;
+    }
+    
+    .instructions ol li span {
+        font-weight: 600;
+    }
+    
+    
+    
+    
+    
+    .nutrition {
+        margin: 2rem 0;
+    }
+    
+    .nutrition h2 {
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .nutrition p {
+        margin-bottom: 1.6rem;
+    }
+    
+    .nutrition table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .nutrition tr > * {
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+    
+    .nutrition tr:last-of-type > * {
+        border-bottom: none;
+    }
+    
+    .com {
+        width: 50%;
+        padding: 0.7rem 0 0.7rem 2rem;
+        
+    }
+    
+    .weight {
+        text-align: left;
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+    
+    
+    
+    
+    
+    @media (min-width:650px) {
+        
+        body {
+            background-color: hsl(30, 54%, 90%);
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 8rem 0;
+        }
+        
+        .content {
+            margin: 0;
+        }
+        
+        .page {
+            background-color: hsl(0, 0%, 100%);
+            width: 648px;
+            padding: 1.7rem;
+            border-radius: 1.5rem;
+        }
+        .page img {
+            
+            border-radius: 1rem;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+    }
